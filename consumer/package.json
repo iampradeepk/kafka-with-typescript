@@ -1,0 +1,17 @@
+{
+    "name": "consumer",
+    "version": "1.0.0",
+    "main": "consumer.js",
+    "scripts": {
+      "build": "tsc",
+      "start:consumer": "node dist/consumer.js",
+      "start": "npm run build && node dist/consumer.js"
+    },
+    "dependencies": {
+      "kafkajs": "^2.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^4.0.0"
+    }
+  }
+  

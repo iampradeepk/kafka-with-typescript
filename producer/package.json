@@ -1,0 +1,17 @@
+{
+    "name": "producer",
+    "version": "1.0.0",
+    "main": "producer.js",
+    "scripts": {
+      "build": "tsc",
+      "start:producer": "node dist/producer.js",
+      "start": "npm run build && node dist/producer.js"
+    },
+    "dependencies": {
+      "kafkajs": "^2.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^4.0.0"
+    }
+  }
+  

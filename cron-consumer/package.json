@@ -1,0 +1,17 @@
+{
+    "name": "cron-consumer",
+    "version": "1.0.0",
+    "main": "cron-consumer.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run build && node dist/cron-consumer.js"
+    },
+    "dependencies": {
+        "kafkajs": "^2.0.0",
+        "node-cron": "^3.0.0"
+    },
+    "devDependencies": {
+        "@types/node-cron": "^3.0.11",
+        "typescript": "^4.0.0"
+    }
+}

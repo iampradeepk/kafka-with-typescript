@@ -1,0 +1,9 @@
+FROM node:16
+
+# Install additional tools if needed
+RUN npm install -g typescript
+
+WORKDIR /usr/src/app
+
+# Expose any ports if needed (e.g., 3000)
+EXPOSE 3000
