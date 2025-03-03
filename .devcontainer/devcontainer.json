@@ -1,7 +1,7 @@
 {
   "name": "Kafka TypeScript Dev",
   "dockerComposeFile": "../docker-compose.yml",
-  "service": "kafka-app",
+  "service": "app",
   "workspaceFolder": "/usr/src/app",
   "forwardPorts": [3000],
   "containerUser": "node",
